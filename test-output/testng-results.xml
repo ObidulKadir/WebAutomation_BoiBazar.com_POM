@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-12T17:41:42Z" name="BoiBazar.com" finished-at="2023-11-12T17:42:13Z" duration-ms="30652">
+    <groups>
+    </groups>
+    <test started-at="2023-11-12T17:41:42Z" name="IslamicBookCategory" finished-at="2023-11-12T17:41:50Z" duration-ms="7598">
+      <class name="Tests.homePageTest">
+        <test-method is-config="true" signature="StartUrl()[pri:0, instance:Tests.homePageTest@8317c52]" started-at="2023-11-12T23:41:42Z" name="StartUrl" finished-at="2023-11-12T23:41:47Z" duration-ms="4239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartUrl -->
+        <test-method signature="IslamicBookCategoryTest()[pri:0, instance:Tests.homePageTest@8317c52]" started-at="2023-11-12T23:41:47Z" name="IslamicBookCategoryTest" finished-at="2023-11-12T23:41:50Z" duration-ms="3093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IslamicBookCategoryTest -->
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.homePageTest@8317c52]" started-at="2023-11-12T23:41:50Z" name="report" finished-at="2023-11-12T23:41:50Z" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+      </class> <!-- Tests.homePageTest -->
+    </test> <!-- IslamicBookCategory -->
+    <test started-at="2023-11-12T17:41:50Z" name="bookCategoriesPage" finished-at="2023-11-12T17:42:13Z" duration-ms="23039">
+      <class name="Tests.bookCategoriesPageTest">
+        <test-method is-config="true" signature="StartUrl()[pri:0, instance:Tests.bookCategoriesPageTest@6a370f4]" started-at="2023-11-12T23:41:50Z" name="StartUrl" finished-at="2023-11-12T23:41:50Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartUrl -->
+        <test-method signature="premisesSelection()[pri:0, instance:Tests.bookCategoriesPageTest@6a370f4]" started-at="2023-11-12T23:41:50Z" name="premisesSelection" finished-at="2023-11-12T23:41:58Z" duration-ms="7654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- premisesSelection -->
+        <test-method signature="authorSelection()[pri:1, instance:Tests.bookCategoriesPageTest@6a370f4]" started-at="2023-11-12T23:41:58Z" name="authorSelection" finished-at="2023-11-12T23:42:06Z" duration-ms="8587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorSelection -->
+        <test-method signature="bookAddedtoCart()[pri:2, instance:Tests.bookCategoriesPageTest@6a370f4]" started-at="2023-11-12T23:42:06Z" name="bookAddedtoCart" finished-at="2023-11-12T23:42:08Z" duration-ms="2283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAddedtoCart -->
+        <test-method signature="cartPage()[pri:3, instance:Tests.bookCategoriesPageTest@6a370f4]" started-at="2023-11-12T23:42:08Z" name="cartPage" finished-at="2023-11-12T23:42:13Z" duration-ms="4425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPage -->
+        <test-method is-config="true" signature="report()[pri:0, instance:Tests.bookCategoriesPageTest@6a370f4]" started-at="2023-11-12T23:42:13Z" name="report" finished-at="2023-11-12T23:42:13Z" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+      </class> <!-- Tests.bookCategoriesPageTest -->
+      <class name="Tests.homePageTest">
+        <test-method is-config="true" signature="StartBrowser()[pri:0, instance:Tests.homePageTest@8317c52]" started-at="2023-11-12T23:41:41Z" name="StartBrowser" finished-at="2023-11-12T23:41:42Z" duration-ms="1669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Tests.homePageTest@8317c52]" started-at="2023-11-12T23:42:13Z" name="CloseBrowser" finished-at="2023-11-12T23:42:13Z" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Tests.homePageTest -->
+    </test> <!-- bookCategoriesPage -->
+  </suite> <!-- BoiBazar.com -->
+</testng-results>

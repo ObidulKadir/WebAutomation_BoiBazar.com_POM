@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BoiBazar.com]" guice-stage="DEVELOPMENT">
+  <test name="bookCategoriesPage(failed)">
+    <classes>
+      <class name="Tests.bookCategoriesPageTest">
+        <methods>
+          <include name="cartPage"/>
+          <include name="bookAddedtoCart"/>
+          <include name="StartUrl"/>
+          <include name="report"/>
+          <include name="authorSelection"/>
+        </methods>
+      </class> <!-- Tests.bookCategoriesPageTest -->
+    </classes>
+  </test> <!-- bookCategoriesPage(failed) -->
+</suite> <!-- Failed suite [BoiBazar.com] -->

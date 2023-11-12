@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeSuite;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class baseDriver {
-	protected static String url = "https://www.boibazar.com/";
+	protected static final String url = "https://www.boibazar.com/";
 	WebDriver driver;
 	
 	@BeforeSuite
@@ -21,14 +21,17 @@ public class baseDriver {
 			
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
+			driver.manage().window().maximize();
 	
 	}else if(browserName.equals("edge")) {
 		WebDriverManager.edgedriver().setup();
 		driver = new EdgeDriver();
+		driver.manage().window().maximize();
 	}
 	else {
 		WebDriverManager.firefoxdriver().setup();
 		driver = new FirefoxDriver();
+		driver.manage().window().maximize();
 	}
 		PageDriver.getInstance().setDriver(driver);
 	
